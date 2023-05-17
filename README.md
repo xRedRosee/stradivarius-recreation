@@ -12,4 +12,5 @@ Me, Iris created the navigation bar and the homepage, and Sem worked on the foot
 
 ## Contributors
 Iris Roemermann
+
 Sem van de Laar
