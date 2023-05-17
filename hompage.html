@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="css/default.css" />
+    <link rel="stylesheet" href="css/homepage.css" />
+    <title>Stradivarius website recreation</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="left-section-nav">
+          <button class="hamburger-menu">
+            <span id="line1"></span>
+            <span id="line2"></span>
+            <span id="line3"></span>
+          </button>
+         <img class="stradivarius-logo-nav" src="img/stradivarius-logo-nav.svg" alt="logo">
+        </div>
+        <div class="popup-menu">
+          <section class="left-menu">
+            <div class="popup-header">
+              <button class="hamburger-popup">
+                <span id="exit"> X </span>
+              </button>
+              <span class="left-side-menu">
+                <img class="stradivarius-logo-popup" src="img/stradivarius-logo-nav.svg" alt="logo">
+                <ul class="icons-popup">
+                  <li><img class="wishlist-icon" src="img/wishlist.svg" alt="wishlist"></li>
+                  <li><img class="shoppingcart-icon" src="img/cart.svg" alt="shoppingcart"></li>
+                </ul>
+              </span>
+            </div>
+            <ul class="filter-list">
+              <li>
+                <form class="search-popup">
+                  <button type="submit" class="searchbutton-popup"><img src="img/searchimg.svg" alt="searchicon" class="searchimg"></button>
+                  <input type="text" placeholder="Search product, collection.." class="searchbar-popup">
+                </form>
+              </li>
+              <li class="bluecolortext"> ALL DENIM </li>
+              <li class="hover-underline-animation"> BASICS </li>
+              <li class="hover-underline-animation"> NEW </li>
+              <li class="hover-underline-animation"> CLOTHES </li>
+              <li class="hover-underline-animation"> CARGO AND PARACHUTE </li>
+              <li class="hover-underline-animation"> STR TEEN </li>
+              <li class="hover-underline-animation"> SPORT </li>
+              <li class="hover-underline-animation"> SCHOENEN </li>
+              <li class="hover-underline-animation"> ACCESSIORES </li>
+            </ul>
+            <div class="content-section">
+              <span class="content-heading">
+                <p class="content-text"> Bekijk per capsulecollectie </p>
+                <button class="arrowbutton-left"><img alt="arrowleft" class="arrowleft" src="img/left-arrow.svg"></button>
+                <button class="arrowbutton-right"><img alt="arrowright" class="arrowright" src="img/right-arrows.svg"></button>
+              </span>
+              <ul class="collection-list">
+                <li>
+                  <figure class="collectionblock">
+                    <img class="collection-img" src="img/collection-barbie.png" alt="imgcollection">
+                    <span class="collection-opacitylayer"></span>
+                  </figure>
+                </li>
+                <li>
+                  <figure class="collectionblock">
+                    <img class="collection-img" src="img/collection-allforall.png" alt="imgcollection">
+                    <span class="collection-opacitylayer"></span>
+                  </figure>
+                </li>
+                <li>
+                  <figure class="collectionblock">
+                    <img class="collection-img" src="img/collection-seamless.png" alt="imgcollection">
+                    <span class="collection-opacitylayer"></span>
+                  </figure>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class="right-menu">
+            <figure class="right-image-figure">
+              <img src="img/outfit-popupmenu.jpg" alt="outfit" class="outfit-popupmenu-img">
+              <span class="opacitylayer"></span>
+              <figcaption class="outfit-popupmenu-caption">
+                <p class="caption-small"> ontdekken</p>
+                <h4 class="caption-big"> STRADILOOKS </h4>
+              </figcaption>
+            </figure>
+          </section>
+        </div>
+        <ul class="icons-right">
+          <li>
+            <form class="search-nav">
+              <input type="text" placeholder="Search product, collection.." class="searchbar-nav">
+              <button type="submit" class="searchbutton-nav"><img src="img/searchimg.svg" alt="searchicon" class="searchimg"></button>
+            </form>
+          </li>
+          <li><img class="account-icon" src="img/user.svg" alt="user"></li>
+          <li><img class="wishlist-icon" src="img/wishlist.svg" alt="wishlist"></li>
+          <li><img class="shoppingcart-icon" src="img/cart.svg" alt="shoppingcart"></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="glide hero">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide headingslide">
+                <img src="img/newin-banner.svg" alt="productimage" class="heading-img">
+                <figcaption class="heading-img-caption"> 
+                  <p class="heading-img-text"> NEW IN </p> 
+                  <a class="heading-img-link" href="productpage.html"> SEE ALL </a>
+                </figcaption>
+            </li>
+            <li class="glide__slide headingslide">
+                <img src="img/shoe-banner.svg" alt="productimage" class="heading-img">
+                <figcaption class="heading-img-caption"> 
+                  <p class="heading-img-text"> SHOES </p> 
+                  <a class="heading-img-link" href="productpage.html"> SEE ALL </a>
+                </figcaption>
+            </li>
+            <li class="glide__slide headingslide">
+                <img src="img/acc-banner.svg" alt="productimage" class="heading-img">
+                <figcaption class="heading-img-caption"> 
+                  <p class="heading-img-text"> ACCESSIORES </p> 
+                  <a class="heading-img-link" href="productpage.html"> SEE ALL </a>
+                </figcaption>
+            </li>
+          </ul>
+        </div>
+      <div class="glide__arrows" data-glide-el="controls">
+        <button class="glide__arrow glide__arrow--left arrowbtns arrowbtn-l" data-glide-dir="<"> < </button>
+        <button class="glide__arrow glide__arrow--right arrowbtns arrowbtn-r" data-glide-dir=">"> > </button>
+      </div>
+    </div>
+      <article class="denim-block">
+        <section class="denim-heading">
+          <h3 class="heading-small"> TRENDING NOW </h3>
+          <h1 class="heading-big"> #DENIM </h1>
+        </section>
+        <div class="denim-list"></div>
+      </article>
+      <article class="suits-block">
+        <figure class="suits-figure">
+          <img src="img/suits-banner.svg" class="suits-img">
+          <figcaption class="suits-heading">
+            <p class="suits-img-text"> BLAZER & SUITS </p> 
+            <a class="suits-img-link" href="productpage.html"> SEE ALL </a>
+          </figcaption>
+        </figure>
+      </article>
+      <article class="cargo-block">
+        <section class="cargo-heading">
+          <h3 class="heading-small"> TRENDING NOW</h3>
+          <h1 class="heading-big"> #CARGOPANTS </h1>
+        </section>
+        <div class="glide cargo">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides cargo-list">
+              <li class="glide__slide cargo-card">
+                <figure class="cargo-figure">
+                  <img src="https://static.e-stradivarius.net/5/photos3/2023/V/0/1/p/8334/106/551/8334106551_1_1_2.jpg?t=1674644266442" class="cargo-image">
+                  <figcaption class="cargo-text">
+                    <h1 class="cargo-text-big">straight model green cargo </h1>
+                    <h2 class="cargo-text-small"> €35,99 </h2>
+                    <a href="productpage.html" class="cargo-btn"> see more </a>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="glide__slide cargo-card">
+                <figure class="cargo-figure">
+                  <img src="https://static.e-stradivarius.net/5/photos3/2023/V/0/1/p/8334/106/251/01/8334106251_1_1_2.jpg?t=1677079579329" class="cargo-image">
+                  <figcaption class="cargo-text">
+                    <h1 class="cargo-text-big"> straight model bluegrey cargo </h1>
+                    <h2 class="cargo-text-small"> €25,99 </h2>
+                    <a href="productpage.html" class="cargo-btn"> see more </a>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="glide__slide cargo-card">
+                <figure class="cargo-figure">
+                <img src="https://static.e-stradivarius.net/5/photos3/2023/V/0/1/p/1427/219/702/1427219702_1_1_2.jpg?t=1676274628613" class="cargo-image">
+                  <figcaption class="cargo-text">
+                    <h1 class="cargo-text-big"> cargo jeans </h1>
+                    <h2 class="cargo-text-small"> €35,99 </h2>
+                    <a href="productpage.html" class="cargo-btn"> see more </a>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="glide__slide cargo-card">
+                <figure class="cargo-figure">
+                <img src="https://static.e-stradivarius.net/5/photos3/2023/V/0/1/p/8334/731/146/8334731146_1_1_2.jpg?t=1675786038685" class="cargo-image">
+                  <figcaption class="cargo-text">
+                    <h1 class="cargo-text-big"> pink cargo pants </h1>
+                    <h2 class="cargo-text-small"> €22,99 </h2>
+                    <a href="productpage.html" class="cargo-btn"> see more </a>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="glide__slide cargo-card">
+                <figure class="cargo-figure">
+                <img src="https://static.e-stradivarius.net/5/photos3/2023/V/0/1/p/8334/168/456/8334168456_1_1_2.jpg?t=1674475054112" class="cargo-image">
+                  <figcaption class="cargo-text">
+                    <h1 class="cargo-text-big"> cargo pants with tie dye </h1>
+                    <h2 class="cargo-text-small"> €38,99 </h2>
+                    <a href="productpage.html" class="cargo-btn"> see more </a>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="glide__slide cargo-card">
+                <figure class="cargo-figure">
+                <img src="https://static.e-stradivarius.net/5/photos3/2023/V/0/1/p/7347/107/709/7347107709_1_1_2.jpg?t=1674812540972" class="cargo-image">
+                <figcaption class="cargo-text">
+                  <h1 class="cargo-text-big"> multiple pockets cargo </h1>
+                  <h2 class="cargo-text-small"> €30,99 </h2>
+                  <a href="productpage.html" class="cargo-btn"> see more </a>
+                </figcaption>
+              </figure>
+              </li>
+            </ul>
+          </div>
+          <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left arrowbtns arrowbtn-l" data-glide-dir="<"> < </button>
+            <button class="glide__arrow glide__arrow--right arrowbtns arrowbtn-r" data-glide-dir=">"> > </button>
+          </div>
+        </div>
+      </article>
+    </main>
+    <footer>
+      <form action="#" class="newsletter-form">
+        <h3>SIGN UP FOR OUR NEWSLETTER</h3>
+        <label for="lname"></label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Email adress"
+          required="required"
+        />
+      </form>
+      <section class="footer-link-section">
+        <ul>
+          <li>
+            <article class="article-text">Do you need help?</article>
+            <button class="accordion">
+              Do you need help? <span class="sign">+</span>
+            </button>
+            <div class="panel">
+              <div><a href="#">FAQs & Contact Information</a></div>
+              <div><a href="#">Track your order</a></div>
+              <div><a href="#">Guest return</a></div>
+              <div><a href="#">Digital receipt</a></div>
+              <div><a href="#">Cookie preferences</a></div>
+            </div>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <article class="article-text">Us</article>
+            <button class="accordion">Us <span class="sign">+</span></button>
+            <div class="panel">
+              <div><a href="#">Find a store</a></div>
+              <div><a href="#">Company</a></div>
+              <div><a href="#">Work with us</a></div>
+              <div><a href="#">Press Room</a></div>
+            </div>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <article class="article-text">Payment methods</article>
+            <button class="accordion">
+              Payment methods <span class="sign">+</span>
+            </button>
+            <div class="panel">
+              <section class="payment-methods">
+                <div>
+                  <div>
+                    <img
+                      src="img/payment-methods-visa.png"
+                      alt="payment-methods-visa"
+                    /><span>Visa</span>
+                  </div>
+                  <div>
+                    <img
+                      src="img/payment-methods-american-express.png"
+                      alt="payment-methods-american-express"
+                    /><span>American Express</span>
+                  </div>
+                  <div>
+                    <img
+                      src="img/payment-methods-klarna.png"
+                      alt="payment-methods-klarna"
+                    /><span>Klarna</span>
+                  </div>
+                  <div>
+                    <img
+                      src="img/payment-methods-ideal.png"
+                      alt="payment-methods-ideal"
+                    /><span>iDeal</span>
+                  </div>
+                </div>
+                <div class="payment-methods-right-side">
+                  <div>
+                    <img
+                      src="img/payment-methods-mastercard.png"
+                      alt="payment-methods-mastercard"
+                    /><span>Mastercard</span>
+                  </div>
+                  <div>
+                    <img
+                      src="img/payment-methods-paypal.png"
+                      alt="payment-methods-paypal"
+                    /><span>PayPal</span>
+                  </div>
+                  <div>
+                    <img
+                      src="img/payment-methods-in.png"
+                      alt="payment-methods-in"
+                    /><span>IN</span>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="footer-icon-section">
+        <div class="icon-section-divider">
+          <ul class="icon">
+            <li>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-pinterest"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="icon-section-divider">
+          <div class="apple">
+            <i
+              style="font-size: 25px; margin-right: 10px"
+              class="fab fa-apple"
+            ></i>
+            <!-- <a href="#">app IOS</a> -->
+            <a href="#">Download the app</a>
+          </div>
+        </div>
+        <div class="icon-section-divider">
+          <div class="android">
+            <i
+              style="font-size: 25px; margin-right: 10px"
+              class="fab fa-android"
+            ></i
+            ><a href="#">Download the app</a>
+            <!-- <a href="#">app Android</a> -->
+          </div>
+        </div>
+
+        <div class="language">
+          <a style="text-decoration: underline" href="#">Nederland</a
+          ><span class="divider">|</span><a href="#">English</a>
+        </div>
+      </section>
+      <section class="footer-end-section">
+        © 2023 Stradivarius &nbsp;&nbsp; .
+        <a style="margin: 10px" href="#">Terms & Conditions</a>.
+        <a style="margin: 10px" href="#">Cookies</a>.
+        <a style="margin: 10px" href="#">Privacy policy</a>.
+        <a style="margin: 10px" href="#">Unsubscribe from newsletter</a>
+      </section>
+    </footer>
+
+    <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/denimView.js"></script>
+    <script src="js/hamburgerMenu.js"></script>
+    <script src="accordion.js"></script>
+  </body>
+</html>

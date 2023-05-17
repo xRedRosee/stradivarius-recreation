@@ -1,0 +1,184 @@
+{
+    "denim": [
+        {
+            "denimID": 1,
+            "name": "denim hand bag",
+            "price": "14,99",
+            "sizes": "ONE SIZE",
+            "images": [
+                {
+                    "image1": "https://static.e-stradivarius.net/5/photos3/2023/V/0/1/p/0500/411/701/0500411701_1_1_2.jpg?t=1675864341054"
+                },
+                {
+                    "image2": "https://static.e-stradivarius.net/5/photos3/2023/V/0/1/p/0500/411/701/0500411701_2_1_2.jpg?t=1675864341054"
+                },
+                {
+                    "image3": "https://static.e-stradivarius.net/5/photos3/2023/V/0/1/p/0500/411/701/0500411701_2_2_2.jpg?t=1675864341054"
+                }
+            ]
+        },
+        {
+            "denimID": 2,
+            "name": "denim mini skirt",
+            "price": "18,99",
+            "sizes": "32, 34, 36, 38, 40, 42",
+            "images":[
+                {
+                    "image1": "https://static.e-stradivarius.net/5/photos3/2023/V/0/1/p/1317/128/704/1317128704_1_1_2.jpg?t=1677245440630"
+                },
+                {
+                    "image2": "https://static.e-stradivarius.net/5/photos3/2023/V/0/1/p/1317/128/704/1317128704_2_4_2.jpg?t=1678718919243"
+                },
+                {
+                    "image3": "https://static.e-stradivarius.net/5/photos3/2023/V/0/1/p/1317/128/704/1317128704_2_1_2.jpg?t=1677245440630"
+                }
+            ]
+        },
+        {
+            "denimID": 3,
+            "name": "denim straight jeans",
+            "price": "29,99",
+            "sizes": "32, 34, 36, 38, 40, 42",
+            "images":[
+                {
+                    "image1": "https://static.e-stradivarius.net/5/photos3/2023/V/0/1/p/1436/458/711/1436458711_1_1_2.jpg?t=1676274626823"
+                },
+                {
+                    "image2": "https://static.e-stradivarius.net/5/photos3/2023/V/0/1/p/1436/458/711/1436458711_2_2_2.jpg?t=1676274626823"
+                },
+                {
+                    "image3": "https://static.e-stradivarius.net/5/photos3/2023/V/0/1/p/1436/458/711/1436458711_2_4_2.jpg?t=1678702005408"
+                }
+            ]
+        },
+        {
+            "denimID": 4,
+            "name": "denim skinny jeans",
+            "price": "24,99",
+            "sizes": "32, 34, 36, 38, 40, 42",
+            "images":[
+                {
+                    "image1": "https://static.e-stradivarius.net/5/photos3/2023/V/0/1/p/1450/510/751/1450510751_1_1_2.jpg?t=1676977171797"
+                },
+                {
+                    "image2": "https://static.e-stradivarius.net/5/photos3/2023/V/0/1/p/1450/510/751/1450510751_2_1_2.jpg?t=1676977171797"
+                },
+                {
+                    "image3": "https://static.e-stradivarius.net/5/photos3/2023/V/0/1/p/1450/510/751/1450510751_2_4_2.jpg?t=1678695460133"
+                }
+            ]
+        },
+        {
+            "denimID": 5,
+            "name": "denim long comfort skirt",
+            "price": "34,99",
+            "sizes": "32, 34, 36, 38, 40, 42",
+            "images":[
+                {
+                    "image1": "https://static.e-stradivarius.net/5/photos3/2023/V/0/1/p/1315/533/700/1315533700_1_1_2.jpg?t=1678879449219"
+                },
+                {
+                    "image2": "https://static.e-stradivarius.net/5/photos3/2023/V/0/1/p/1315/533/700/1315533700_2_1_2.jpg?t=1678879449219"
+                },
+                {
+                    "image3": "https://static.e-stradivarius.net/5/photos3/2023/V/0/1/p/1315/533/700/1315533700_2_4_2.jpg?t=1678877589246"
+                }
+            ]
+        },
+        {
+            "denimID": 6,
+            "name": "cropped denim jacket",
+            "price": "22,99",
+            "sizes": "XS, S, M, L, XL",
+            "images":[
+                {
+                    "image1": "https://static.e-stradivarius.net/5/photos3/2023/V/0/1/p/1768/800/711/1768800711_1_1_2.jpg?t=1678725995443"
+                },
+                {
+                    "image2": "https://static.e-stradivarius.net/5/photos3/2023/V/0/1/p/1768/800/711/1768800711_2_2_2.jpg?t=1678725995443"
+                },
+                {
+                    "image3": "https://static.e-stradivarius.net/5/photos3/2023/V/0/1/p/1768/800/711/1768800711_2_4_2.jpg?t=1678721066805"
+                }
+            ]
+        },
+        {
+            "denimID": 7,
+            "name": "denim plateausole shoes",
+            "price": "34,99",
+            "sizes": "35, 36, 37, 38, 39, 40, 41",
+            "images":[
+                {
+                    "image1": "https://static.e-stradivarius.net/5/photos3/2023/V/1/1/p/9214/170/043/9214170043_2_1_2.jpg?t=1675168778679"
+                },
+                {
+                    "image2": "https://static.e-stradivarius.net/5/photos3/2023/V/1/1/p/9214/170/043/9214170043_1_1_2.jpg?t=1675168778679"
+                },
+                {
+                    "image3": "https://static.e-stradivarius.net/5/photos3/2023/V/1/1/p/9214/170/043/9214170043_2_2_2.jpg?t=1675168778679"
+                }
+            ]
+        },
+        {
+            "denimID": 8,
+            "name": "Oversized denim jacket",
+            "price": "34,99",
+            "sizes": "XS, S, M, L, XL",
+            "images":[
+                {
+                    "image1": "https://static.e-stradivarius.net/5/photos3/2023/V/0/1/p/1775/428/702/1775428702_1_1_2.jpg?t=1678375224337"
+                },
+                {
+                    "image2": "https://static.e-stradivarius.net/5/photos3/2023/V/0/1/p/1775/428/702/1775428702_2_1_2.jpg?t=1678375224337"
+                },
+                {
+                    "image3": "https://static.e-stradivarius.net/5/photos3/2023/V/0/1/p/1775/428/702/1775428702_2_4_2.jpg?t=1678702764074"
+                }
+            ]
+        }
+    ],
+    "cargo": [
+        {
+            "cargoID": "1",
+             "name": "straight model green cargo",
+            "price": "35,99",
+            "sizes": "32, 34, 36, 38, 40, 42",
+            "image": "https://static.e-stradivarius.net/5/photos3/2023/V/0/1/p/8334/106/551/8334106551_1_1_2.jpg?t=1674644266442"
+        },
+        {
+            "cargoID": "2",
+             "name": "straight model bluegrey cargo",
+            "price": "32,99",
+            "sizes": "32, 34, 36, 38, 40, 42",
+            "image": "https://static.e-stradivarius.net/5/photos3/2023/V/0/1/p/8334/106/251/01/8334106251_1_1_2.jpg?t=1677079579329"
+        },
+        {
+            "cargoID": "3",
+             "name": "cargo jeans",
+            "price": "29,99",
+            "sizes": "32, 34, 36, 38, 40, 42",
+            "image": "https://static.e-stradivarius.net/5/photos3/2023/V/0/1/p/1427/219/702/1427219702_1_1_2.jpg?t=1676274628613"
+        },
+        {
+            "cargoID": "4",
+             "name": "pink cargo pants",
+            "price": "25,99",
+            "sizes": "32, 34, 36, 38, 40, 42",
+            "image": "https://static.e-stradivarius.net/5/photos3/2023/V/0/1/p/8334/731/146/8334731146_1_1_2.jpg?t=1675786038685"
+        },
+        {
+            "cargoID": "5",
+             "name": "cargo pants with tie dye",
+            "price": "38,99",
+            "sizes": "32, 34, 36, 38, 40, 42",
+            "image": "https://static.e-stradivarius.net/5/photos3/2023/V/0/1/p/8334/168/456/8334168456_1_1_2.jpg?t=1674475054112"
+        },
+        {
+            "cargoID": "6",
+             "name": "multiple pockets cargo",
+            "price": "30,99",
+            "sizes": "32, 34, 36, 38, 40, 42",
+            "image": "https://static.e-stradivarius.net/5/photos3/2023/V/0/1/p/7347/107/709/7347107709_1_1_2.jpg?t=1674812540972"
+        }
+    ]
+}

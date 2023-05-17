@@ -1,0 +1,394 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Oswald:wght@500&display=swap");
+
+:root {
+  --font: "Open Sans", sans-serif;
+
+  --footer-text-color-1: #4a4a4a;
+  --footer-text-color-2: #8e8e8e;
+  --footer-text-color-3: #333;
+  --footer-text-color-4: #e9e9e9;
+  --colornavbar: black;
+  --colorsearchnav: #fafafa;
+  --navigationfont: Arial, Helvetica, sans-serif;
+  --popupmenufont: "Oswald", sans-serif;
+  --darkbluecolor: #0523b5;
+  --regularfont: "Open Sans", sans-serif;
+  --whitecolor: white;
+  --blackcolor: black;
+}
+
+header {
+  z-index: 9999;
+  position: fixed;
+}
+
+/* -------------------------- heading slideshow */
+.heading-top {
+  position: relative;
+}
+.heading-top-slider {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.heading-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.arrowbtns {
+  border: none;
+  box-shadow: none;
+  color: black;
+  font-size: 40px;
+  font-family: var(--regularfont);
+}
+
+.headingslide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.heading-img-caption {
+  color: var(--whitecolor);
+  font-family: var(--regularfont);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-img-text {
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.heading-img-link {
+  text-decoration: underline;
+  font-size: 20px;
+  cursor: pointer;
+}
+.heading-img-link:visited {
+  color: var(--whitecolor);
+}
+
+/* --------------------- denim trends block */
+.denim-block {
+  font-family: var(--regularfont);
+  margin: 0;
+  padding: 0;
+  margin-top: 36px;
+  margin-bottom: 40px;
+}
+
+.denim-heading {
+  margin-left: 20px;
+}
+
+.heading-small {
+  margin: 0;
+  font-size: 16px;
+}
+
+.heading-big {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+/* --------------------- denim cards */
+.denim-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow-x: auto;
+  cursor: pointer;
+}
+.denim-list::-webkit-scrollbar {
+  width: 20px;
+}
+
+.denim-list::-webkit-scrollbar-track {
+  background: none;
+}
+
+.denim-list::-webkit-scrollbar-thumb {
+  background: #e4e4e4;
+  border-radius: 20px;
+  border: 7px solid transparent;
+  background-clip: content-box;
+}
+
+.denim-card {
+  width: 274px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 6px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.denim-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 274px;
+  position: relative;
+}
+
+.denim-image {
+  width: 100%;
+}
+
+.size-container {
+  font-family: var(--regularfont);
+  background-color: var(--whitecolor);
+  color: var(--blackcolor);
+  width: 260px;
+  position: absolute;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+}
+.denim-container:hover .size-container {
+  opacity: 1;
+}
+.size-header {
+  margin: 0;
+  margin-top: 10px;
+  width: 80%;
+  text-align: center;
+  border-bottom: 1px solid rgb(219, 219, 219);
+  padding-bottom: 5px;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.size-text {
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+.denim-price {
+  font-family: var(--regularfont);
+  margin: 0;
+  margin-top: 4px;
+  margin-bottom: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 12px;
+}
+
+.denim-name {
+  font-family: var(--regularfont);
+  margin: 0;
+  font-size: 14px;
+  font-weight: lighter;
+  margin-left: 12px;
+}
+
+/* ----------- suits block */
+.suits-block {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.suits-figure {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.suits-heading {
+  position: absolute;
+  top: 50%;
+  font-family: var(--regularfont);
+  color: var(--whitecolor);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.suits-img-text {
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.suits-img-link {
+  text-decoration: underline;
+  font-size: 20px;
+  cursor: pointer;
+  color: var(--whitecolor);
+}
+
+/* ----------------------- cargo block */
+.cargo-block {
+  font-family: var(--regularfont);
+  margin-top: 40px;
+}
+
+.cargo-heading {
+  margin-left: 20px;
+}
+.cargo-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* ----------------------------- cargo cards */
+.cargo-card {
+  padding: 0;
+  margin: 0;
+}
+
+.cargo-card:hover .cargo-text {
+  display: flex;
+}
+
+.cargo-figure {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  width: 272px;
+}
+.cargo-image {
+  width: 100%;
+}
+.cargo-text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.cargo-text-big {
+  color: white;
+  margin: 0;
+  width: 80%;
+  margin-bottom: 5px;
+  margin-left: 6px;
+  font-size: 20px;
+}
+
+.cargo-text-small {
+  color: white;
+  margin: 0;
+  margin-bottom: 16px;
+  margin-left: 6px;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.cargo-btn {
+  color: white;
+  margin: 0;
+  margin-bottom: 20px;
+  margin-left: 6px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 375px) {
+  .heading-img {
+    height: 100%;
+    width: auto;
+  }
+  .heading-img-caption {
+    width: 100%;
+    z-index: 999;
+  }
+
+  .heading-img-text {
+    font-size: 45px;
+    margin: 0;
+    margin-bottom: 23px;
+  }
+
+  .arrowbtn-l {
+    left: 20px;
+  }
+  .arrowbtn-r {
+    right: 20px;
+  }
+
+  /* ---------- denim block */
+  .heading-big {
+    font-size: 50px;
+  }
+
+  /* ----------- suits block */
+  .suits-img {
+    height: 100%;
+  }
+
+  .suits-img-text {
+    font-size: 50px;
+    margin: 0;
+    margin-bottom: 23px;
+  }
+
+  .suits-figure {
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .heading-img {
+    height: auto;
+    width: 100%;
+  }
+
+  .heading-img-slide {
+    justify-content: center;
+  }
+
+  .heading-img-text {
+    font-size: 80px;
+    margin: 0;
+    margin-bottom: 50px;
+  }
+
+  .arrowbtn-l {
+    left: 40px;
+  }
+  .arrowbtn-r {
+    right: 40px;
+  }
+  /* ---------- denim block */
+  .heading-big {
+    font-size: 60px;
+  }
+
+  /* ----------- suits block */
+  .suits-img {
+    height: auto;
+    width: 100%;
+  }
+
+  .suits-img-text {
+    font-size: 80px;
+    margin: 0;
+    margin-bottom: 50px;
+  }
+}
